@@ -1,0 +1,30 @@
+{
+  "name": "itdlh-trincomalee-portal",
+  "version": "1.0.0",
+  "description": "Official Institutional Website and Student Management System for Zonal Information Technology and Distance Learning Hub (ITDLH), Trincomalee",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "db:init": "node db/init-db.js"
+  },
+  "keywords": [
+    "ITDLH",
+    "Trincomalee",
+    "NVQ",
+    "Education",
+    "Sri Lanka",
+    "TVEC",
+    "Vocational Training"
+  ],
+  "author": "Mrs. Kishotha Kumanan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "pg": "^8.13.1"
+  }
+}
